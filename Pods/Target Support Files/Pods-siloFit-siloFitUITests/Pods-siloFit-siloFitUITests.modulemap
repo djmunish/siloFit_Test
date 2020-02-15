@@ -1,0 +1,6 @@
+framework module Pods_siloFit_siloFitUITests {
+  umbrella header "Pods-siloFit-siloFitUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

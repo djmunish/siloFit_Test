@@ -1,0 +1,888 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03ECE48F7E9A01E6126F428F /* Pods_siloFitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0167C00FAED9D510D3B28BE3 /* Pods_siloFitTests.framework */; };
+		581CA3A223F4BF8D00D71D1B /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 581CA3A123F4BF8D00D71D1B /* DesignableButton.swift */; };
+		5852652523F78FD000143666 /* SpacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5852652223F78FD000143666 /* SpacesCell.swift */; };
+		5852652623F78FD000143666 /* DetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5852652323F78FD000143666 /* DetailCell.swift */; };
+		5852652723F78FD000143666 /* MapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5852652423F78FD000143666 /* MapCell.swift */; };
+		58584E8023F48C6100E504A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584E7F23F48C6100E504A9 /* AppDelegate.swift */; };
+		58584E8223F48C6100E504A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584E8123F48C6100E504A9 /* SceneDelegate.swift */; };
+		58584E8423F48C6100E504A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584E8323F48C6100E504A9 /* ViewController.swift */; };
+		58584E8723F48C6100E504A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58584E8523F48C6100E504A9 /* Main.storyboard */; };
+		58584E8923F48C6500E504A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58584E8823F48C6500E504A9 /* Assets.xcassets */; };
+		58584E8C23F48C6500E504A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58584E8A23F48C6500E504A9 /* LaunchScreen.storyboard */; };
+		58584E9723F48C6600E504A9 /* siloFitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584E9623F48C6600E504A9 /* siloFitTests.swift */; };
+		58584EA223F48C6600E504A9 /* siloFitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584EA123F48C6600E504A9 /* siloFitUITests.swift */; };
+		58584EB123F49F9900E504A9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584EB023F49F9900E504A9 /* HomeViewController.swift */; };
+		58584EB323F49FA700E504A9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584EB223F49FA700E504A9 /* SignInViewController.swift */; };
+		58584EB523F49FAF00E504A9 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58584EB423F49FAF00E504A9 /* SignUpViewController.swift */; };
+		58584EB823F4A25600E504A9 /* FacebookLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 58584EB723F4A25600E504A9 /* FacebookLogin */; };
+		58584EBA23F4A25600E504A9 /* FacebookCore in Frameworks */ = {isa = PBXBuildFile; productRef = 58584EB923F4A25600E504A9 /* FacebookCore */; };
+		58584EBC23F4A71700E504A9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58584EBB23F4A71700E504A9 /* GoogleService-Info.plist */; };
+		58A6F57723F7D94700B05BD5 /* MoreDetailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6F57623F7D94700B05BD5 /* MoreDetailCell.swift */; };
+		58A6F57A23F7DBF900B05BD5 /* PhotosCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58A6F57823F7DBF900B05BD5 /* PhotosCell.swift */; };
+		58A6F57B23F7DBF900B05BD5 /* PhotosCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58A6F57923F7DBF900B05BD5 /* PhotosCell.xib */; };
+		58BE5E4823F853E0005D3C15 /* ViewPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BE5E4723F853E0005D3C15 /* ViewPhotosViewController.swift */; };
+		58C34B0B23F8471D00979707 /* OptionsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C34B0923F8471D00979707 /* OptionsCell.swift */; };
+		58C34B0C23F8471D00979707 /* OptionsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58C34B0A23F8471D00979707 /* OptionsCell.xib */; };
+		58C34B0F23F84BD800979707 /* DataCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C34B0E23F84BD800979707 /* DataCollectionView.swift */; };
+		58C34B1123F84BE800979707 /* PhotosCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58C34B1023F84BE800979707 /* PhotosCollectionView.swift */; };
+		58E88CED23F79921007EB88A /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E88CEC23F79921007EB88A /* DetailsViewController.swift */; };
+		8867B5783C2CD4783B88B966 /* Pods_siloFit_siloFitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C17D60C373916D1D6875202 /* Pods_siloFit_siloFitUITests.framework */; };
+		C94B4223EB8F256EDBC03B1E /* Pods_siloFit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5130CFF99DF8C5BEB6F12B24 /* Pods_siloFit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		58584E9323F48C6600E504A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58584E7423F48C6100E504A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58584E7B23F48C6100E504A9;
+			remoteInfo = siloFit;
+		};
+		58584E9E23F48C6600E504A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 58584E7423F48C6100E504A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 58584E7B23F48C6100E504A9;
+			remoteInfo = siloFit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0167C00FAED9D510D3B28BE3 /* Pods_siloFitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siloFitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		08B310B31FE7BB5ADE221F9B /* Pods-siloFit-siloFitUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siloFit-siloFitUITests.debug.xcconfig"; path = "Target Support Files/Pods-siloFit-siloFitUITests/Pods-siloFit-siloFitUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C17D60C373916D1D6875202 /* Pods_siloFit_siloFitUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siloFit_siloFitUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BD49B4A736D00B20862559A /* Pods-siloFit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siloFit.debug.xcconfig"; path = "Target Support Files/Pods-siloFit/Pods-siloFit.debug.xcconfig"; sourceTree = "<group>"; };
+		5130CFF99DF8C5BEB6F12B24 /* Pods_siloFit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_siloFit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		581CA3A123F4BF8D00D71D1B /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		5852652223F78FD000143666 /* SpacesCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpacesCell.swift; sourceTree = "<group>"; };
+		5852652323F78FD000143666 /* DetailCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailCell.swift; sourceTree = "<group>"; };
+		5852652423F78FD000143666 /* MapCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapCell.swift; sourceTree = "<group>"; };
+		58584E7C23F48C6100E504A9 /* siloFit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = siloFit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		58584E7F23F48C6100E504A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		58584E8123F48C6100E504A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		58584E8323F48C6100E504A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		58584E8623F48C6100E504A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		58584E8823F48C6500E504A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58584E8B23F48C6500E504A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		58584E8D23F48C6500E504A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58584E9223F48C6600E504A9 /* siloFitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siloFitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58584E9623F48C6600E504A9 /* siloFitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siloFitTests.swift; sourceTree = "<group>"; };
+		58584E9823F48C6600E504A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58584E9D23F48C6600E504A9 /* siloFitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = siloFitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58584EA123F48C6600E504A9 /* siloFitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = siloFitUITests.swift; sourceTree = "<group>"; };
+		58584EA323F48C6600E504A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58584EB023F49F9900E504A9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		58584EB223F49FA700E504A9 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		58584EB423F49FAF00E504A9 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		58584EBB23F4A71700E504A9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5882CC4323F5123A0046BFD9 /* Montreal-GPX.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = "Montreal-GPX.gpx"; path = "siloFit/Montreal-GPX.gpx"; sourceTree = SOURCE_ROOT; };
+		58A6F57623F7D94700B05BD5 /* MoreDetailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreDetailCell.swift; sourceTree = "<group>"; };
+		58A6F57823F7DBF900B05BD5 /* PhotosCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCell.swift; sourceTree = "<group>"; };
+		58A6F57923F7DBF900B05BD5 /* PhotosCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotosCell.xib; sourceTree = "<group>"; };
+		58BE5E4723F853E0005D3C15 /* ViewPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPhotosViewController.swift; sourceTree = "<group>"; };
+		58C34B0923F8471D00979707 /* OptionsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsCell.swift; sourceTree = "<group>"; };
+		58C34B0A23F8471D00979707 /* OptionsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OptionsCell.xib; sourceTree = "<group>"; };
+		58C34B0E23F84BD800979707 /* DataCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCollectionView.swift; sourceTree = "<group>"; };
+		58C34B1023F84BE800979707 /* PhotosCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionView.swift; sourceTree = "<group>"; };
+		58E88CEC23F79921007EB88A /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		731A6DDC460B06DE7418979D /* Pods-siloFit-siloFitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siloFit-siloFitUITests.release.xcconfig"; path = "Target Support Files/Pods-siloFit-siloFitUITests/Pods-siloFit-siloFitUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E8A2088EB64A58B44A9514D /* Pods-siloFitTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siloFitTests.debug.xcconfig"; path = "Target Support Files/Pods-siloFitTests/Pods-siloFitTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD14EEAEAA9AAD46E7D10BA8 /* Pods-siloFit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siloFit.release.xcconfig"; path = "Target Support Files/Pods-siloFit/Pods-siloFit.release.xcconfig"; sourceTree = "<group>"; };
+		F35338F0A169BD4160730457 /* Pods-siloFitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-siloFitTests.release.xcconfig"; path = "Target Support Files/Pods-siloFitTests/Pods-siloFitTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58584E7923F48C6100E504A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58584EB823F4A25600E504A9 /* FacebookLogin in Frameworks */,
+				58584EBA23F4A25600E504A9 /* FacebookCore in Frameworks */,
+				C94B4223EB8F256EDBC03B1E /* Pods_siloFit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58584E8F23F48C6600E504A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03ECE48F7E9A01E6126F428F /* Pods_siloFitTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58584E9A23F48C6600E504A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8867B5783C2CD4783B88B966 /* Pods_siloFit_siloFitUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		581CA3A023F4BF8100D71D1B /* Design Classes */ = {
+			isa = PBXGroup;
+			children = (
+				581CA3A123F4BF8D00D71D1B /* DesignableButton.swift */,
+			);
+			path = "Design Classes";
+			sourceTree = "<group>";
+		};
+		5852652123F78FD000143666 /* TableView Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5852652223F78FD000143666 /* SpacesCell.swift */,
+				5852652323F78FD000143666 /* DetailCell.swift */,
+				5852652423F78FD000143666 /* MapCell.swift */,
+				58A6F57623F7D94700B05BD5 /* MoreDetailCell.swift */,
+				58A6F57823F7DBF900B05BD5 /* PhotosCell.swift */,
+				58A6F57923F7DBF900B05BD5 /* PhotosCell.xib */,
+				58C34B0923F8471D00979707 /* OptionsCell.swift */,
+				58C34B0A23F8471D00979707 /* OptionsCell.xib */,
+			);
+			path = "TableView Cells";
+			sourceTree = "<group>";
+		};
+		58584E7323F48C6100E504A9 = {
+			isa = PBXGroup;
+			children = (
+				58584E7E23F48C6100E504A9 /* siloFit */,
+				58584E9523F48C6600E504A9 /* siloFitTests */,
+				58584EA023F48C6600E504A9 /* siloFitUITests */,
+				58584E7D23F48C6100E504A9 /* Products */,
+				C13A4E037F33B93B29B8CAD8 /* Pods */,
+				590241C11311AB1022E509BA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		58584E7D23F48C6100E504A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				58584E7C23F48C6100E504A9 /* siloFit.app */,
+				58584E9223F48C6600E504A9 /* siloFitTests.xctest */,
+				58584E9D23F48C6600E504A9 /* siloFitUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58584E7E23F48C6100E504A9 /* siloFit */ = {
+			isa = PBXGroup;
+			children = (
+				58C34B0D23F84BBF00979707 /* Collection Views */,
+				5852652123F78FD000143666 /* TableView Cells */,
+				581CA3A023F4BF8100D71D1B /* Design Classes */,
+				58584EAF23F49F8B00E504A9 /* Controller */,
+				58584E7F23F48C6100E504A9 /* AppDelegate.swift */,
+				58584E8123F48C6100E504A9 /* SceneDelegate.swift */,
+				58584E8323F48C6100E504A9 /* ViewController.swift */,
+				58584E8523F48C6100E504A9 /* Main.storyboard */,
+				58584E8823F48C6500E504A9 /* Assets.xcassets */,
+				58584E8A23F48C6500E504A9 /* LaunchScreen.storyboard */,
+				58584E8D23F48C6500E504A9 /* Info.plist */,
+				58584EBB23F4A71700E504A9 /* GoogleService-Info.plist */,
+			);
+			path = siloFit;
+			sourceTree = "<group>";
+		};
+		58584E9523F48C6600E504A9 /* siloFitTests */ = {
+			isa = PBXGroup;
+			children = (
+				58584E9623F48C6600E504A9 /* siloFitTests.swift */,
+				58584E9823F48C6600E504A9 /* Info.plist */,
+			);
+			path = siloFitTests;
+			sourceTree = "<group>";
+		};
+		58584EA023F48C6600E504A9 /* siloFitUITests */ = {
+			isa = PBXGroup;
+			children = (
+				58584EA123F48C6600E504A9 /* siloFitUITests.swift */,
+				58584EA323F48C6600E504A9 /* Info.plist */,
+			);
+			path = siloFitUITests;
+			sourceTree = "<group>";
+		};
+		58584EAF23F49F8B00E504A9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58584EB023F49F9900E504A9 /* HomeViewController.swift */,
+				5882CC4323F5123A0046BFD9 /* Montreal-GPX.gpx */,
+				58584EB223F49FA700E504A9 /* SignInViewController.swift */,
+				58584EB423F49FAF00E504A9 /* SignUpViewController.swift */,
+				58E88CEC23F79921007EB88A /* DetailsViewController.swift */,
+				58BE5E4723F853E0005D3C15 /* ViewPhotosViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		58C34B0D23F84BBF00979707 /* Collection Views */ = {
+			isa = PBXGroup;
+			children = (
+				58C34B0E23F84BD800979707 /* DataCollectionView.swift */,
+				58C34B1023F84BE800979707 /* PhotosCollectionView.swift */,
+			);
+			path = "Collection Views";
+			sourceTree = "<group>";
+		};
+		590241C11311AB1022E509BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5130CFF99DF8C5BEB6F12B24 /* Pods_siloFit.framework */,
+				1C17D60C373916D1D6875202 /* Pods_siloFit_siloFitUITests.framework */,
+				0167C00FAED9D510D3B28BE3 /* Pods_siloFitTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C13A4E037F33B93B29B8CAD8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4BD49B4A736D00B20862559A /* Pods-siloFit.debug.xcconfig */,
+				DD14EEAEAA9AAD46E7D10BA8 /* Pods-siloFit.release.xcconfig */,
+				08B310B31FE7BB5ADE221F9B /* Pods-siloFit-siloFitUITests.debug.xcconfig */,
+				731A6DDC460B06DE7418979D /* Pods-siloFit-siloFitUITests.release.xcconfig */,
+				7E8A2088EB64A58B44A9514D /* Pods-siloFitTests.debug.xcconfig */,
+				F35338F0A169BD4160730457 /* Pods-siloFitTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58584E7B23F48C6100E504A9 /* siloFit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58584EA623F48C6600E504A9 /* Build configuration list for PBXNativeTarget "siloFit" */;
+			buildPhases = (
+				BB881E31C56F54938FA0940D /* [CP] Check Pods Manifest.lock */,
+				58584E7823F48C6100E504A9 /* Sources */,
+				58584E7923F48C6100E504A9 /* Frameworks */,
+				58584E7A23F48C6100E504A9 /* Resources */,
+				1084F3C6E760DD8542FBE18A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = siloFit;
+			packageProductDependencies = (
+				58584EB723F4A25600E504A9 /* FacebookLogin */,
+				58584EB923F4A25600E504A9 /* FacebookCore */,
+			);
+			productName = siloFit;
+			productReference = 58584E7C23F48C6100E504A9 /* siloFit.app */;
+			productType = "com.apple.product-type.application";
+		};
+		58584E9123F48C6600E504A9 /* siloFitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58584EA923F48C6600E504A9 /* Build configuration list for PBXNativeTarget "siloFitTests" */;
+			buildPhases = (
+				49ECD17B4342080EDC3D2CCE /* [CP] Check Pods Manifest.lock */,
+				58584E8E23F48C6600E504A9 /* Sources */,
+				58584E8F23F48C6600E504A9 /* Frameworks */,
+				58584E9023F48C6600E504A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58584E9423F48C6600E504A9 /* PBXTargetDependency */,
+			);
+			name = siloFitTests;
+			productName = siloFitTests;
+			productReference = 58584E9223F48C6600E504A9 /* siloFitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		58584E9C23F48C6600E504A9 /* siloFitUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58584EAC23F48C6600E504A9 /* Build configuration list for PBXNativeTarget "siloFitUITests" */;
+			buildPhases = (
+				1CB58E5D8B94F07BC357D96D /* [CP] Check Pods Manifest.lock */,
+				58584E9923F48C6600E504A9 /* Sources */,
+				58584E9A23F48C6600E504A9 /* Frameworks */,
+				58584E9B23F48C6600E504A9 /* Resources */,
+				E09CD5A5BA53E44DDD4C7C2C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				58584E9F23F48C6600E504A9 /* PBXTargetDependency */,
+			);
+			name = siloFitUITests;
+			productName = siloFitUITests;
+			productReference = 58584E9D23F48C6600E504A9 /* siloFitUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58584E7423F48C6100E504A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Munish;
+				TargetAttributes = {
+					58584E7B23F48C6100E504A9 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					58584E9123F48C6600E504A9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 58584E7B23F48C6100E504A9;
+					};
+					58584E9C23F48C6600E504A9 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 58584E7B23F48C6100E504A9;
+					};
+				};
+			};
+			buildConfigurationList = 58584E7723F48C6100E504A9 /* Build configuration list for PBXProject "siloFit" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 58584E7323F48C6100E504A9;
+			packageReferences = (
+				58584EB623F4A25600E504A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */,
+			);
+			productRefGroup = 58584E7D23F48C6100E504A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58584E7B23F48C6100E504A9 /* siloFit */,
+				58584E9123F48C6600E504A9 /* siloFitTests */,
+				58584E9C23F48C6600E504A9 /* siloFitUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		58584E7A23F48C6100E504A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58584EBC23F4A71700E504A9 /* GoogleService-Info.plist in Resources */,
+				58584E8C23F48C6500E504A9 /* LaunchScreen.storyboard in Resources */,
+				58584E8923F48C6500E504A9 /* Assets.xcassets in Resources */,
+				58A6F57B23F7DBF900B05BD5 /* PhotosCell.xib in Resources */,
+				58C34B0C23F8471D00979707 /* OptionsCell.xib in Resources */,
+				58584E8723F48C6100E504A9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58584E9023F48C6600E504A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58584E9B23F48C6600E504A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1084F3C6E760DD8542FBE18A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siloFit/Pods-siloFit-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siloFit/Pods-siloFit-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siloFit/Pods-siloFit-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB58E5D8B94F07BC357D96D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-siloFit-siloFitUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49ECD17B4342080EDC3D2CCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-siloFitTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB881E31C56F54938FA0940D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-siloFit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E09CD5A5BA53E44DDD4C7C2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siloFit-siloFitUITests/Pods-siloFit-siloFitUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-siloFit-siloFitUITests/Pods-siloFit-siloFitUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-siloFit-siloFitUITests/Pods-siloFit-siloFitUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58584E7823F48C6100E504A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58C34B0F23F84BD800979707 /* DataCollectionView.swift in Sources */,
+				5852652623F78FD000143666 /* DetailCell.swift in Sources */,
+				58A6F57723F7D94700B05BD5 /* MoreDetailCell.swift in Sources */,
+				58584EB523F49FAF00E504A9 /* SignUpViewController.swift in Sources */,
+				58584E8423F48C6100E504A9 /* ViewController.swift in Sources */,
+				58C34B0B23F8471D00979707 /* OptionsCell.swift in Sources */,
+				58E88CED23F79921007EB88A /* DetailsViewController.swift in Sources */,
+				581CA3A223F4BF8D00D71D1B /* DesignableButton.swift in Sources */,
+				58584E8023F48C6100E504A9 /* AppDelegate.swift in Sources */,
+				58C34B1123F84BE800979707 /* PhotosCollectionView.swift in Sources */,
+				5852652723F78FD000143666 /* MapCell.swift in Sources */,
+				58584E8223F48C6100E504A9 /* SceneDelegate.swift in Sources */,
+				58584EB323F49FA700E504A9 /* SignInViewController.swift in Sources */,
+				5852652523F78FD000143666 /* SpacesCell.swift in Sources */,
+				58BE5E4823F853E0005D3C15 /* ViewPhotosViewController.swift in Sources */,
+				58A6F57A23F7DBF900B05BD5 /* PhotosCell.swift in Sources */,
+				58584EB123F49F9900E504A9 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58584E8E23F48C6600E504A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58584E9723F48C6600E504A9 /* siloFitTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58584E9923F48C6600E504A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58584EA223F48C6600E504A9 /* siloFitUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		58584E9423F48C6600E504A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58584E7B23F48C6100E504A9 /* siloFit */;
+			targetProxy = 58584E9323F48C6600E504A9 /* PBXContainerItemProxy */;
+		};
+		58584E9F23F48C6600E504A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 58584E7B23F48C6100E504A9 /* siloFit */;
+			targetProxy = 58584E9E23F48C6600E504A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		58584E8523F48C6100E504A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58584E8623F48C6100E504A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		58584E8A23F48C6500E504A9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				58584E8B23F48C6500E504A9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		58584EA423F48C6600E504A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		58584EA523F48C6600E504A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58584EA723F48C6600E504A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BD49B4A736D00B20862559A /* Pods-siloFit.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				INFOPLIST_FILE = siloFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siloFit.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		58584EA823F48C6600E504A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD14EEAEAA9AAD46E7D10BA8 /* Pods-siloFit.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				INFOPLIST_FILE = siloFit/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siloFit.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		58584EAA23F48C6600E504A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E8A2088EB64A58B44A9514D /* Pods-siloFitTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				INFOPLIST_FILE = siloFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siloFit.test.siloFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siloFit.app/siloFit";
+			};
+			name = Debug;
+		};
+		58584EAB23F48C6600E504A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35338F0A169BD4160730457 /* Pods-siloFitTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				INFOPLIST_FILE = siloFitTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siloFit.test.siloFitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/siloFit.app/siloFit";
+			};
+			name = Release;
+		};
+		58584EAD23F48C6600E504A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08B310B31FE7BB5ADE221F9B /* Pods-siloFit-siloFitUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				INFOPLIST_FILE = siloFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siloFit.test.siloFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = siloFit;
+			};
+			name = Debug;
+		};
+		58584EAE23F48C6600E504A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 731A6DDC460B06DE7418979D /* Pods-siloFit-siloFitUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MX7G2R2T3E;
+				INFOPLIST_FILE = siloFitUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.siloFit.test.siloFitUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = siloFit;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58584E7723F48C6100E504A9 /* Build configuration list for PBXProject "siloFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58584EA423F48C6600E504A9 /* Debug */,
+				58584EA523F48C6600E504A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58584EA623F48C6600E504A9 /* Build configuration list for PBXNativeTarget "siloFit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58584EA723F48C6600E504A9 /* Debug */,
+				58584EA823F48C6600E504A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58584EA923F48C6600E504A9 /* Build configuration list for PBXNativeTarget "siloFitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58584EAA23F48C6600E504A9 /* Debug */,
+				58584EAB23F48C6600E504A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58584EAC23F48C6600E504A9 /* Build configuration list for PBXNativeTarget "siloFitUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58584EAD23F48C6600E504A9 /* Debug */,
+				58584EAE23F48C6600E504A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		58584EB623F4A25600E504A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/facebook-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		58584EB723F4A25600E504A9 /* FacebookLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58584EB623F4A25600E504A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookLogin;
+		};
+		58584EB923F4A25600E504A9 /* FacebookCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58584EB623F4A25600E504A9 /* XCRemoteSwiftPackageReference "facebook-ios-sdk" */;
+			productName = FacebookCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 58584E7423F48C6100E504A9 /* Project object */;
+}
